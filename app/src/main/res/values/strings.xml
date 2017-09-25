@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Mrefugee</string>
+    <string name="app_version">v1.1.0</string>
     <string name="title_activity_main">MainActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -11,5 +12,82 @@
     <string name="nav_home">Home</string>
     <string name="nav_reportCorruption">Report Corruption</string>
     <string name="nav_jobSearch">Job Search</string>
+
+    <string name="nav_news">News</string>
+    <string name="nav_repatriatiion">Repatriation</string>
+    <string name="nav_notice_board">Notice Board</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="sample_news">Last year, aid agencies and the Kenyan government set up a new settlement for refugees in the northwestern town of Kalobeyei. The United Nations refugee agency (UNHCR) made a point of saying that Kalobeyei would not be a refugee camp. Instead, it would be an "integrated community," where refugees and local residents could do business together, live in harmony and access services offered by the UNHCR through local partners.
+        Refugees interviewed by VOA say none of this has happened, and that they find themselves in an isolated camp where food and water supplies are precarious, UNHCR representatives are hard to find and residents are at the mercy of thieves.
+        The UNHCR tells a very different story, saying their people are on-site daily, there are markets nearby, water is plentiful and there is no "heightened security situation."
+        Perhaps the only thing clear is that some residents of the Kalobeyei settlement feel deeply misled.
+        Resident complaints
+        Galgalo Arero, an Ethiopian refugee in Kenya and a father of three, was living in the Dadaab refugee camp when he says UNHCR representatives persuaded him and some fellow Dadaab residents to move to Kalobeyei.
+        "When they brought us here, we were told that the place would be like a community village with many development projects, a school, clinic, market and almost everything close by," he told VOAs Horn of Africa Service.
+        The way Arero describes it, almost nothing at the settlement is close-by.  He says the nearest market is about 24 kilometers away, and the nearest primary school is 16 kilometers. The distances are far too long to cover by foot.
+        "We pay between 200 and 300 Kenyan shillings to go to market on a motorbike. [But] that is not possible during the rainy season," he said.
+        Jamal Mohamed, another Ethiopian refugee who moved to Kalobeyei, described a similar pattern of hope and disappointment.
+
+        "We were told that the new settlement is a facility ready with all the basic needs," he said.  "Because of that, everybody sold [their] property. We were only allowed to carry just 18 kilograms of load with us. But when we get there, reality on the ground is totally different."
+
+        Mohamed said the 200 shillings one must pay to get to market use up a sizeable chunk of the $14 (about 1400 shillings) Kalobeyei residents receive each month from the U.N. World Food Program.
+
+        “So out of this 1,400 shillings, you end up getting 800 to 900 shillings. That is our monthly ration," he said.
+
+        UNHCR disputes accounts
+
+        Funded by the European Union, Kalobeyei sits on 1,500 hectares of land donated by the host community, Turkana County. It was built to relieve crowding at the nearby Kakuma refugee camp.  According to a recent UNHCR report, it hosts about 36,000 refugees who come from South Sudan, Ethiopia, Uganda, the Democratic Republic of Congo and Burundi.
+
+        FILE- Residents are seen walking down a dirt road at Kakuma refugee camp, Kakuma, Kenya, on Feb. 6, 2017. (J. Craig/VOA)
+
+        VOA learned of the complaints about Kalobeyei from contacts in Nairobi and has since spoken to 10 residents of the year-old settlement.  All describe significant problems, including isolation, a high rate of robberies, a precarious food and water situation, and a seeming lack of oversight.  Arero and others said there is no UNHCR office in the settlement, and problems must be handled by officials at the Kakuma camp.
+
+        Residents also say the settlement was built in a windy area, and in March high winds blew away more than 50 shanty homes.
+
+        VOA was unable to contact UNHCR representatives for the original version of this story last week.  The UNHCR office in Kenya objected after the story was published, with communications director Yvonne Ndege telling VOA that “conditions at Kalobeyei are not as you describe in your report.”
+
+        In an email, Ndege offered a sharply different description of the settlement and its facilities.  She said Kalobeyei was not built in a remote area and has markets, water tanks and primary schools on site.  She said about 270,000 people live within a 10 kilometer radius of the settlement, and that the town of Kakuma is 15 kilometers away.
+
+        Regarding safety, “there is no heightened security situation or security threat at Kalobeyei or Kakuma,” Ndege said.  “Security is provided by Government of Kenya and they are present in the Kalobeyei settlement.”
+
+        She said a UNHCR office was expected to be operational in Kalobeyei by the end of August, and that UNHCR officials already interact with residents there on a daily basis.
+
+        Divergent views
+        If that’s so, however, the agency and the residents have incongruent views of what life is like at the settlement.
+
+        Take the water situation. Kalobeyei resident Abdul Aziz says the settlement doesn’t have enough of it.
+
+        "We get water once a week by water truck, sometimes [every] two weeks," he said. "Sometimes they say the truck is damaged and we don\'t get water at all.”  He also said seven families share one latrine.
+
+        Ndege disputes these assertions.  “Systems are in place to provide water on a daily basis. Refugees are currently receiving 20 liters per day as per the standard,” she said. Most of the water comes in through pipelines that feed into water tanks, with water trucks bringing in the rest.
+
+        Latrines are shared, she acknowledged, but only three or four families use one latrine.
+
+        As for medical care, the refugees say there is only a small Red Cross office at the site.  "If there is an emergency, there are times when the ambulance arrives after an hour or two," Aziz said.
+
+        Ndege says there are two Red Cross facilities in Kalobeyei and more than one ambulance.
+
+        Regarding the market, she says “some refugees choose to travel to markets in Kakuma and the transporters charge 200-300 shillings.  However, there are markets available in Kalobeyei.”
+
+        Asked why Kalobeyei residents seem disappointed in the settlement, Ndege said she is not sure.  The Kakuma camp is 3.5 kilometers from Kalobeyei, she notes, and refugees who previously lived at Kakuma had the opportunity to see Kalobeyei before moving there.
+
+        She said refugees who came from the Dadaab camp, which is further away, “may have had different expectations” despite an advance viewing of Kalobeyei by community leaders.</string>
+    <string name="app_about">
+        It has always been a challenge to get news or any other kind of relevant information to people in camps due to the different communication channels that has to be followed.
+
+     \n\nMrefugee tends to solve this challenge by proving real time news and advertisements to its users.
+
+     \n\n\It also helps returnees to understand repatriation process and get information about their country of origin and status
+    </string>
+    <string name="app_contact">
+        Tel: +254 345666
+        \nMobile: +254 78903748
+        \nWeb: https://drc.ngo/where-we-work/east-africa-and-yemen/kenya
+        \nEmail: drcdadaab@gmail.com
+    </string>
+
 
 </resources>

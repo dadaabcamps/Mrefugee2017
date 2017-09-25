@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.drcdadaab.mrefugee.NewsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:onClick="openDetailActivity"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent">-->
+
+            <!--<android.support.constraint.ConstraintLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imageView4"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="180dp"-->
+                    <!--android:layout_marginTop="0dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+                    <!--app:layout_constraintRight_toRightOf="parent"-->
+                    <!--app:layout_constraintTop_toTopOf="parent"-->
+                    <!--app:srcCompat="@drawable/abdula" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewNewsListTitle"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="16dp"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:paddingBottom="8dp"-->
+                    <!--android:text="How The World's Largest Camp Remade A Generation Of Somalis"-->
+                    <!--android:textColor="@android:color/black"-->
+                    <!--android:textSize="16sp"-->
+                    <!--app:layout_constraintHorizontal_bias="0.0"-->
+                    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+                    <!--app:layout_constraintRight_toRightOf="parent"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/imageView4" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imageView5"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="16dp"-->
+                    <!--android:layout_marginTop="0dp"-->
+                    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textViewNewsListTitle"-->
+                    <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewNewsListVisible"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:text="Admin"-->
+                    <!--android:textColor="@android:color/black"-->
+                    <!--android:textSize="12sp"-->
+                    <!--app:layout_constraintLeft_toRightOf="@+id/imageView5"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textViewNewsListTitle" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView4"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="8dp"-->
+                    <!--android:layout_marginTop="4dp"-->
+                    <!--android:text="10 hours ago"-->
+                    <!--android:textSize="12sp"-->
+                    <!--app:layout_constraintLeft_toRightOf="@+id/imageView5"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textViewNewsListVisible" />-->
+
+            <!--</android.support.constraint.ConstraintLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+    <!--</android.support.constraint.ConstraintLayout>-->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewNewsList"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:elevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBarNewsList"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
