@@ -10,10 +10,10 @@
             <!--android:id="@+id/nav_gallery"-->
             <!--android:icon="@mipmap/ic_work"-->
             <!--android:title="@string/nav_jobSearch" />-->
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@mipmap/ic_hand"
-            android:title="@string/nav_reportCorruption" />
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@mipmap/ic_hand"-->
+            <!--android:title="@string/nav_reportCorruption" />-->
     </group>
 
     <!--<item android:title="Communicate">-->

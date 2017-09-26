@@ -18,7 +18,8 @@ import android.view.ViewGroup;
 public class TabFragment extends Fragment {
     public static TabLayout tabLayout;
     public static ViewPager viewPager;
-    public static int int_items = 3 ;
+//    public static int int_items = 3 ;
+    public static int int_items = 2 ;
 
     @Nullable
     @Override
@@ -52,8 +53,8 @@ public class TabFragment extends Fragment {
         {
             switch (position){
                 case 0 : return new NewsFragment();
-                case 1 : return new RepatriationFragment();
-                case 2 : return new NBoardFragment();
+//                case 1 : return new RepatriationFragment();
+                case 1 : return new NBoardFragment();
             }
             return null;
         }
@@ -71,9 +72,9 @@ public class TabFragment extends Fragment {
             switch (position){
                 case 0 :
                     return getResources().getString(R.string.nav_news);
+//                case 1 :
+//                    return getResources().getString(R.string.nav_repatriatiion);
                 case 1 :
-                    return getResources().getString(R.string.nav_repatriatiion);
-                case 2 :
                     return getResources().getString(R.string.nav_notice_board);
             }
             return null;
