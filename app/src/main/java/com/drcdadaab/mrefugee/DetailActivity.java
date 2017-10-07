@@ -50,7 +50,7 @@ public class DetailActivity extends AppCompatActivity {
         textViewShowNewsAuthor.setText(author);
         textViewShowNewsTimestamp.setReferenceTime(new Date((timestamp)).getTime());
         textViewShowNewsContent.setText(content);
-        Picasso.with(DetailActivity.this).load(imageUrl).into(imageViewShowNewsImage);
+        Picasso.with(DetailActivity.this).load(imageUrl).placeholder(R.drawable.news_placeholder).into(imageViewShowNewsImage);
 
         getSupportActionBar().setTitle(title);
 

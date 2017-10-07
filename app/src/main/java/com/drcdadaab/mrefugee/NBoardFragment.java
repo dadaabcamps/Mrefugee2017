@@ -63,7 +63,7 @@ public class NBoardFragment extends Fragment {
                 viewHolder.textViewNoticeListTitle.setText(model.getTitle());
                 viewHolder.textViewNoticeListSource.setText(model.getSource());
                 viewHolder.textViewNoticeListSince.setReferenceTime(new Date((model.getTimestamp() * -1)).getTime());
-                Picasso.with(getActivity()).load(model.getAgencyLogo()).into(viewHolder.imageViewNoticeListImage);
+                Picasso.with(getActivity()).load(model.getAgencyLogo()).placeholder(R.mipmap.ic_launcher).into(viewHolder.imageViewNoticeListImage);
 
                 progressBarNoticeList.setVisibility(View.GONE);
                 viewHolder.mView.setOnClickListener(new View.OnClickListener() {

@@ -10,4 +10,10 @@
             android:src="@mipmap/ic_launcher"/>
     </item>
 
+    <item>
+        <bitmap
+            android:gravity="bottom"
+            android:src="@drawable/mrefugee_logo_text"/>
+    </item>
+
 </layer-list>

@@ -64,7 +64,7 @@ public class NewsFragment extends Fragment {
                 viewHolder.textViewNewsListTitle.setText(model.getTitle());
                 viewHolder.textViewNewsListAuthor.setText(model.getAuthor());
                 viewHolder.textViewNewsListSince.setReferenceTime(new Date((model.getTimestamp())).getTime());
-                Picasso.with(getActivity()).load(model.getImageUrl()).into(viewHolder.imageViewNewsListImage);
+                Picasso.with(getActivity()).load(model.getImageUrl()).placeholder(R.drawable.news_placeholder).into(viewHolder.imageViewNewsListImage);
                 progressBarNewsList.setVisibility(View.GONE);
                 viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                     @Override
